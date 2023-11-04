@@ -23,7 +23,7 @@
     right: 0;
     z-index: 1;
     background-repeat: repeat-x;
-    animation: highway 5s linear infinite;
+    animation: highway 2s linear infinite;
 }
 
 @keyframes highway{
@@ -43,7 +43,7 @@
     display: block;
     z-index: 1;
     background-repeat: repeat-x;
-    animation: city 20s linear infinite;
+    animation: city 10s linear infinite;
 }
 
 @keyframes city{
@@ -68,13 +68,13 @@
 
 @keyframes car{
     0%{
-        transform: translateY(-1px);
+        transform: translateY(-2px);
     }
     50%{
-        transform: translateY(1px);
+        transform: translateY(2px);
     }
     100%{
-        transform: translateY(-1px);
+        transform: translateY(-2px);
     }
 }
 
@@ -89,7 +89,7 @@
 .wheel img{
     width: 72px;
     height: 72px;
-    animation: wheels 1s linear infinite;
+    animation: wheels 0.5s linear infinite;
 }
 
 .back-wheel{
